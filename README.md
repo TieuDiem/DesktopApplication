@@ -1,1 +1,42 @@
 # DesktopApplication
+Xây dựng ứng dụng xử lý ảnh trong công nghiệp với C#, WPF and EmguCV.
+Khóa học chỉ public 3 bài đầu tiên
+## Nội dung khóa học
+- **1.** Build Image Processing Applications
+- **2.** Connection between Camera and Applications (Basler Camera)
+- **3.** Communicate between PLC and Application (TCP/IP)
+- **4.** Git management and maintenant
+## Clone Code
+Để clone source code của khóa học Desktop Applications
+```bash
+git clone https://github.com/TieuDiem/DesktopApplication.git
+```
+# Khóa học online xử lý ảnh trong công nghiệp
+Học trên visual studio code, python, numpy, matplotlib và opencv 
+## Nội dung khóa học
+- **1.** Color Space and Color Extraction
+- **2.** Bitwise Operation and Thresholding (Global, Range, Adaptive, Binary)
+- **3.** Histogram and Equalization
+- **4.** Morphological, Struct Element,specially kerner size
+- **5.** Image Bluring and Image Smoothing
+- **6.** Edge Detection (Canny and Sobel)
+- **7.** Shape Extraction (with, heigth, area, circularity, squqness, anisometry,...) and Shape Selection
+- **8.** Gray Extraction (mean, variance,standard deviation, entropy,...) and Gray Selection
+- **9.** Contour Extraction (area, length, moment, anisometry, circularity,..) and Contour Selection
+- **10.** Contours Transformation (Approximate, ConvexHull, Minimum End Closing Circle, ...)
+- **11.** Geometrics Transformation (Translation, Shear, Rotation, Scaling,..) and Perspective Transformation 
+- **12.** Image Transfomation (Logarit,gamma,...) and Evalue Image Quality (mean, variance, sharpness, entropy,...)
+- **13.** Build and upload customize library to [pytest](https://test.pypi.org/)
+- **14.** Polar Transformation and Applications
+- **15.** [Python] Class and OOP, map, interable and application, Recursive and applications
+
+## Class 
+<p align="center">
+  <img src="image/class1" width="350" title="hover text">
+  <img src="your_relative_path_here_number_2_large_name" width="350" alt="accessibility text">
+</p>
+
+
+## Authors
+- [maitrungkien1296@gmail.com](maitrungkien1296@gmail.com)
+- [facebook](https://www.facebook.com/thanhvancongchua/)
