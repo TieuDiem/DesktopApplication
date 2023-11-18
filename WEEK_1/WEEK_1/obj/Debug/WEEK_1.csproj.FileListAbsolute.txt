@@ -1,7 +1,0 @@
-E:\Console\DesktopApplication\WEEK_1\WEEK_1\bin\Debug\WEEK_1.exe.config
-E:\Console\DesktopApplication\WEEK_1\WEEK_1\bin\Debug\WEEK_1.exe
-E:\Console\DesktopApplication\WEEK_1\WEEK_1\bin\Debug\WEEK_1.pdb
-E:\Console\DesktopApplication\WEEK_1\WEEK_1\obj\Debug\WEEK_1.csproj.AssemblyReference.cache
-E:\Console\DesktopApplication\WEEK_1\WEEK_1\obj\Debug\WEEK_1.csproj.CoreCompileInputs.cache
-E:\Console\DesktopApplication\WEEK_1\WEEK_1\obj\Debug\WEEK_1.exe
-E:\Console\DesktopApplication\WEEK_1\WEEK_1\obj\Debug\WEEK_1.pdb
