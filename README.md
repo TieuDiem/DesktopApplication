@@ -30,10 +30,16 @@ Học trên visual studio code, python, numpy, matplotlib và opencv
 - **14.** Polar Transformation and Applications
 - **15.** [Python] Class and OOP, map, interable and application, Recursive and applications
 
-## Class 
+## Code Representation
 <p align="center">
-  <img src="image/class1" width="350" title="hover text">
-  <img src="your_relative_path_here_number_2_large_name" width="350" alt="accessibility text">
+  <img src="images/img1.png" width="350" title="hover text">
+  <img src="images/img2.png" width="350" title="hover text">
+  <img src="images/img3.png" width="350" title="hover text">
+  <img src="images/img4.png" width="350" title="hover text">
+  <img src="images/img5.png" width="350" title="hover text">
+  <img src="images/img6.png" width="350" title="hover text">
+  <img src="images/img7.png" width="350" title="hover text">
+  <img src="images/img8.png" width="350" title="hover text">
 </p>
 
 
