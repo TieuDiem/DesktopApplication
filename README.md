@@ -24,11 +24,13 @@ Học trên visual studio code, python, numpy, matplotlib và opencv
 - **8.** Gray Extraction (mean, variance,standard deviation, entropy,...) and Gray Selection
 - **9.** Contour Extraction (area, length, moment, anisometry, circularity,..) and Contour Selection
 - **10.** Contours Transformation (Approximate, ConvexHull, Minimum End Closing Circle, ...)
-- **11.** Geometrics Transformation (Translation, Shear, Rotation, Scaling,..) and Perspective Transformation 
-- **12.** Image Transfomation (Logarit,gamma,...) and Evalue Image Quality (mean, variance, sharpness, entropy,...)
-- **13.** Build and upload customize library to [pytest](https://test.pypi.org/)
-- **14.** Polar Transformation and Applications
-- **15.** [Python] Class and OOP, map, interable and application, Recursive and applications
+- **11.** Distance in 2-Dimentations (Distance between Point and Point, between Point and Line, between Region and Region, between Point and Region)
+- **12.** Template Matching Algorithm
+- **13.** Geometrics Transformation (Translation, Shear, Rotation, Scaling,..) and Perspective Transformation 
+- **14.** Image Transfomation (Logarit,gamma,...) and Evalue Image Quality (mean, variance, sharpness, entropy,...)
+- **15.** Build and upload customize library to [pytest](https://test.pypi.org/)
+- **16.** Polar Transformation and Applications
+- **17.** [Python] Class and OOP, map, interable and application, Recursive and applications
 
 ## Code Representation
 <p align="center">
