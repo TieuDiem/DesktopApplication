@@ -4,6 +4,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 using WEEK_2.Contents;
+using static WEEK_2.Contents.Content5;
 
 namespace WEEK_2
 {
@@ -48,6 +49,37 @@ namespace WEEK_2
             Console.WriteLine("Goi ham stream");
         }
     }
+    class Can
+    {
+        public Can(Content5 ct5)
+        {
+            ct5.suKienNhapSo += tinhCan;
+        }
+        public void tinhCan(object sender, EventArgs e)
+        {
+            DataSender data = (DataSender)e;
+
+            double can = Math.Sqrt(data.x);
+            Console.WriteLine(string.Format("Binh phuong cua {0} bang: {1} ", data.x, can));
+        }
+        public void Cancel(Content5 ct5)
+        {
+            ct5.suKienNhapSo -= tinhCan;
+        }
+    }
+    class BinhPhuong
+    {
+        public BinhPhuong(Content5 ct5)
+        {
+            ct5.suKienNhapSo += tinhBinhPhuong;
+        }
+        public void tinhBinhPhuong (object sender, EventArgs e)
+        {
+            DataSender data = (DataSender)e;
+            int binhPhuong = data.x * data.x;
+            Console.WriteLine(string.Format("Binh phuong cua {0} bang: {1} ", data.x, binhPhuong));
+        }
+    }
     class Program
     {
         static void Main(string[] args)
@@ -72,15 +104,22 @@ namespace WEEK_2
 
             //Content_3 ct3 = new Content_3();
 
-            Content_4 ct4 = new Content_4();
+            //Content_4 ct4 = new Content_4();
 
             // Phat di su kien 
-            Content_4.CBDelegate?.Invoke("Calling delegate");
-            Content_4.action?.Invoke("Calling ACtion");
-            string tong = Content_4. tinhTongFunc?.Invoke(100, 200);
+            //Content_4.CBDelegate?.Invoke("Calling delegate");
+            //Content_4.action?.Invoke("Calling ACtion");
+            //string tong = Content_4. tinhTongFunc?.Invoke(100, 200);
 
 
-            Console.WriteLine(string.Format("Tong la: {0}", tong));
+            //Console.WriteLine(string.Format("Tong la: {0}", tong));
+            Content5 ct5 = new Content5();
+
+            BinhPhuong binhPhuong = new BinhPhuong(ct5);
+            Can can = new Can(ct5);
+            can.Cancel(ct5);
+
+            ct5.startInput();
             Console.ReadLine();
         }
     }
